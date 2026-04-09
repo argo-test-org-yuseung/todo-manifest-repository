@@ -29,6 +29,7 @@ metadata:
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/security-groups: sg-0554413097cd3c3a2
 spec:
   ingressClassName: alb
   rules:
